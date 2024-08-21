@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr16Nmtfxzh_zJAiLz0Ltqz_HMndq_r1KLRRzvTywt9fDCBs4w">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Homework</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/hambuger.css">
+    <link rel="stylesheet" href="css/ind.css">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="photo/tsubaki.png">
+
+
+    <br>
+    <strong><h2 id="ex02">日本雜誌專賣店</h2></strong>
+
+</head>
+<body style="background-color:#b2967e">
+    <div class="alert alert-success alert-dismissible mb-0">
+        <button type="button" class="btn-close" data-bs-dismiss="alert">
+        </button>
+        <img src="photo/sweet_2306_.jpg" alt="sweet_2306" class="d-block w-100">
+        
+    </div>
+    
+    <!-- Grey with black text -->
+    <nav class="navbar navbar-expand-md bg-light sticky-top">
+        <!-- brand/logo -->
+        <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;&nbsp;<img src="photo/tsubaki.png" height="40px"></a>
+        
+        <!-- hamburger icon -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+        <span class="navbar-toggler-icon" ></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapseNavbar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">女性雜誌</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">MORE</a></li>
+                        <li><a class="dropdown-item" href="#">Ray</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">CanCan</a>
+                    <!-- 第三層 子選單-->
+                        <ul class="dropdown-menu" >
+                            <li><a class="dropdown-item text-warning" href="#">6月</a></li>
+                            <li><a class="dropdown-item text-warning" href="#">5月</a></li>
+                            <li><a class="dropdown-item text-warning" href="#">4月</a></li>
+                            <li class="dropdown-submenu"><a class="dropdown-item text-warning dropdown-toggle" href="#">3月</a>
+                        <!-- 第四層 子選單-->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark" href="#">航空版</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">海運版</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </li>
+                    </ul>
+            </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">男性雜誌</a>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">其他分類</a>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">旅遊雜誌</a></li>
+        <li><a class="dropdown-item" href="#">遊戲雜誌</a></li>
+        <li><a class="dropdown-item" href="#">電視雜誌</a></li>
+        </li>
+        </ul>
+       </li>
+       <li class="nav-item">
+       <a class="nav-link" href="#">最新資訊</a>
+       </li>
+       <li class="nav-item">
+       <a class="nav-link" href="#">常見問題</a>
+       </li>
+       </ul>
+    
+        
+        <!-- search -->
+        <form class="input-group" style="width:250px" action="https://www.usc.edu.tw/" method="get">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-success" type="submit" style="background-color:#7e6348;border:5px #b2967e double;">搜尋</button>
+        </form>
+        </div>
+        </div>
+        </nav>
+    <div class="fix_menu">
+        <a href="javascript:void(0)" class="menu-trigger on">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+
+
+
+
+    <div class="container">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            </div>
+        
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="photo/non-no_2305_.jpg" alt="non-no_2305" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="photo/act_2211_.jpg" alt="act_2211" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="photo/moon_2305_.jpg" alt="moon_2305" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="photo/vivi_2301_.jpg" alt="vivi_2301" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="photo/anan_2304_.jpg" alt="anan_2304" class="d-block w-100">
+            </div>
+            </div>
+        
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+
+    </div>
+
+    <br>
+    <div class="alert alert-success" style="background-color:#7e6348;border:10px #b2967e double;">
+        <h3>全館雜誌<strong>&nbsp;9折起</strong></h3> 
+    </div>
+    
+    <center>
+    <div class="row">
+        <div class="col-12 col-md-4">
+        <div class="card" style="width:350px">
+            <img class="card-img-top" src="photo/more_2306.jpg" alt="more_2306">
+            <div class="card-body" style="background-color:#ccc4c1">
+              <h4 class="card-title">MORE</h4>
+              <p class="card-text">2023年6月號</p>
+              <a href="#" class="btn btn-primary" style="background-color:#7e6348; border:#b2967e double;">&#x1F6D2;&nbsp;加入購物車</a>
+            </div>
+          </div>
+       </div>
+
+       <div class="col-12 col-md-4">
+        <div class="card" style="width:350px">
+            <img class="card-img-top" src="photo/ray_2306.jpg" alt="ray_2306">
+            <div class="card-body" style="background-color:#ccc4c1">
+              <h4 class="card-title">Ray</h4>
+              <p class="card-text">2023年6月號</p>
+              <a href="#" class="btn btn-primary" style="background-color:#7e6348; border:#b2967e double;">&#x1F6D2;&nbsp;加入購物車</a>
+            </div>
+          </div>
+       </div>
+
+       <div class="col-12 col-md-4">
+        <div class="card" style="width:350px">
+            <img class="card-img-top" src="photo/cancan_2305.jpg" alt="cancan_2305">
+            <div class="card-body" style="background-color:#ccc4c1">
+              <h4 class="card-title">CanCan</h4>
+              <p class="card-text">2023年5月號</p>
+              <a href="#" class="btn btn-primary" style="background-color:#7e6348; border:#b2967e double;">&#x1F6D2;&nbsp;加入購物車</a>
+            </div>
+          </div>
+       </div>
+     </div>
+     <br>
+
+     <div class="row">
+        
+       <div class="col-12 col-md-4">
+        <div class="card" style="width:350px">
+            <img class="card-img-top" src="photo/men.png" alt="men">
+            <div class="card-body" style="background-color:#ccc4c1">
+              <h4 class="card-title">MEN'S NON-NO</h4>
+              <p class="card-text">2021年11月號</p>
+              <a href="#" class="btn btn-primary" style="background-color:#7e6348; border:#b2967e double;">&#x1F6D2;&nbsp;加入購物車</a>
+            </div>
+          </div>
+       </div>
+
+       <div class="col-12 col-md-4">
+        <div class="card" style="width:350px">
+            <img class="card-img-top" src="photo/vivi_2301.jpg" alt="vivi_2301">
+            <div class="card-body" style="background-color:#ccc4c1">
+              <h4 class="card-title">ViVi</h4>
+              <p class="card-text">2023年1月號</p>
+              <a href="#" class="btn btn-primary" style="background-color:#7e6348; border:#b2967e double;">&#x1F6D2;&nbsp;加入購物車</a>
+            </div>
+          </div>
+       </div>
+
+       
+       <div class="col-12 col-md-4">
+        <div class="card" style="width:350px">
+            <img class="card-img-top" src="photo/getnavi_2306.jpg" alt="getnavi_2306">
+            <div class="card-body" style="background-color:#ccc4c1">
+              <h4 class="card-title">GetNavi</h4>
+              <p class="card-text">2023年6月號</p>
+              <a href="#" class="btn btn-primary" style="background-color:#7e6348; border:#b2967e double;">&#x1F6D2;&nbsp;加入購物車</a>
+            </div>
+          </div>
+       </div>
+     </div>
+     <br>
+    </center>
+
+    <br>
+        <center>
+            <img src="photo/f1.png" width="5%" >
+            <img src="photo/f2.png" width="5%" >
+            <img src="photo/f3.png" width="5%" >
+            <img src="photo/f4.png" width="5%" >
+            <img src="photo/f5.png" width="5%" >
+            <img src="photo/f6.png" width="5%" >
+            <img src="photo/f7.png" width="5%" >
+            <img src="photo/f1.png" width="5%" >
+            <img src="photo/f2.png" width="5%" >
+            <img src="photo/f3.png" width="5%" >
+            <img src="photo/f4.png" width="5%" >
+            <img src="photo/f5.png" width="5%" >
+            <img src="photo/f6.png" width="5%" >
+            <img src="photo/f7.png" width="5%" >
+        </center>
+    <br>
+        <br>
+        <div class="col-12 ">
+        <center>
+            <img src="photo/A1-1.JPG" width="18%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="photo/A1-2.jpg" width="18%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="photo/A1-3.JPG" width="18%"><br><br>
+
+            <img src="photo/A2-1.JPG" width="18%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="photo/A2-2.jpg" width="18%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="photo/A2-3.JPG" width="18%"><br><br>
+
+            <img src="photo/A3-1.JPG" width="18%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="photo/A3-2.jpg" width="18%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="photo/A3-3.JPG" width="18%"><br><br>
+
+            <img src="photo/A4-1.JPG" width="18%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="photo/A4-2.jpg" width="18%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="photo/A4-3.JPG" width="18%"><br><br>
+        </center>
+
+    </div>
+        <br>
+    <div class="alert alert-success" style="background-color:#7e6348;border:10px #b2967e double;">
+    <center><h2><strong>推薦!!!!!</strong> 購買通路</h2> </center>
+    </div>
+    <br>
+<center>
+<div class="row">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+        <div>
+            <div>
+                <a href="https://www.rakuten.co.jp/category/101302/" target="_blank" align="left">
+                <img src="photo/rakuten.jpg" width="400px">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+        <div>
+            <div>
+                <a href="https://www.amazon.co.jp/%E9%9B%91%E8%AA%8C-%E9%80%9A%E8%B2%A9/b?ie=UTF8&node=13384021" target="_blank" align="left">
+                <img src="photo/amazon.jpg" width="400px">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+        <div>
+            <div>
+                <a href="https://bookwalker.jp/magazine/" target="_blank" align="left">
+                <img src="photo/kadokawa.jpg" width="400px">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</center>
+
+<br>
+    
+</body>
+<footer>
+    <div class="mt-4 p-5  text-white rounded" style="background-color:#c1966c;">
+        
+        <h2 id="ex01"><strong>店面資訊</strong></h2>
+        <p>大直店<br>
+            營業時間：周二 ~ 週日 11:00~20:00<br>
+            地址：台北市中山區北安路<br>
+            連絡電話：03-1231231<br>
+        </p>
+        <p>北車店<br>
+            營業時間：周二 ~ 週日 11:00~20:00<br>
+            地址：台北市中正區北平西路<br>
+            連絡電話：03-7897897<br>
+        </p>
+        
+      </div>
+    </footer>
+</html>
